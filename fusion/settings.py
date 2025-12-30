@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$uz9)#!y10^1i1lg=9#=16!vp2hk#+%ho-3(!@n_u9gki@)1p*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'fusion.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postegresql',
-        'NAME': 'fusion_db',
-        'USER': 'fusion_user',
-        'PASSWORD': 'fusion_password',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'fusion',
+        'USER': 'postgres',  # ← corrigir aqui
+        'PASSWORD': '123456789',
         'HOST': 'localhost',
         'PORT': '5432',
     }
