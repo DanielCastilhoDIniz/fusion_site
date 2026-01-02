@@ -124,3 +124,17 @@ STATIC_URL = 'static/'
 MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Email test configuration
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+"""
+# Email production configuration
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = '<your_email@gmail.com>'
+EMAIL_HOST_PASSWORD = '<your_email_password>'
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+"""
