@@ -229,3 +229,4 @@ local_settings.py
 .env.production
 .env.test
 
+template/*
