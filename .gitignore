@@ -230,3 +230,5 @@ local_settings.py
 .env.test
 
 template/*
+
+htmlcov

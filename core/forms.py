@@ -6,13 +6,18 @@ class ContactForm(forms.Form):
     name = forms.CharField(label='Nome', max_length=100)
     email = forms.EmailField(label='E-mail', max_length=100)
     subject = forms.CharField(label='Assunto', max_length=150)
-    message = forms.CharField(label='Mensagem', widget=forms.Textarea, max_length=2000)
+    message = forms.CharField(label='Mensagem',
+                              widget=forms.Textarea,
+                              max_length=2000,
+                              error_messages={
+                                  'invalid': 'E-mail inválido.'
+                                  })
 
-    def clean_email(self):
-        email = self.cleaned_data['email']
-        if '\n' in email or '\r' in email:
-            raise forms.ValidationError('E-mail inválido.')
-        return email
+    # def clean_email(self):
+    #     email = self.cleaned_data['email']
+    #     if '\n' in email or '\r' in email:
+    #         raise forms.ValidationError('E-mail inválido.')
+    #     return email
 
     def send_email(self):
         name = self.cleaned_data['name']
