@@ -1,11 +1,8 @@
-Perfeito, vamos montar um **README profissional, padronizado para projetos Django**, alinhado com a **estrutura real do seu projeto (`fusion`)**, testes, boas práticas e já pronto para GitHub.
 
-Abaixo está o **README completo**, usando **Markdown + HTML** e com **ícones lado a lado**, seções bem definidas e linguagem técnica clara.
 
 ---
 
-````markdown
-<img src="banner.gif" width="325px" align="right">
+
 
 # 🚀 Fusion — Projeto Django
 
@@ -52,60 +49,67 @@ fusion/
 ├── manage.py
 ├── requirements.txt
 └── README.md
+
+
+
 ````
-
----
-
 ## 🧠 Linguagens (nível de domínio)
 
-<div style="display: flex; gap: 20px; align-items: center;">
-  <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48"/>
-    <br><strong>Python</strong><br>Avançado
-  </div>
-  <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="48"/>
-    <br><strong>JavaScript</strong><br>Básico
-  </div>
-  <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48"/>
-    <br><strong>HTML</strong><br>Intermediário
-  </div>
-  <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48"/>
-    <br><strong>CSS</strong><br>Intermediário
-  </div>
-</div>
+<table align="center" >
+  <tr>
+    <td align="center" width="140 ">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48"><br>
+      <strong>Python</strong><br>Avançado
+    </td>
+    <td align="center" width="140">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="48"><br>
+      <strong>JavaScript</strong><br>Básico
+    </td>
+    <td align="center" width="140">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48"><br>
+      <strong>HTML</strong><br>Intermediário
+    </td>
+    <td align="center" width="140">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48"><br>
+      <strong>CSS</strong><br>Intermediário
+    </td>
+  </tr>
+</table>
+
 
 ---
 
 ## 🗄️ Bancos de Dados
 
-<div style="display: flex; gap: 20px; align-items: center;">
-  <div align="center">
+<table align="center" color="white" >
+  <tr>
+    <td align="center" width="140 ">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="48"/>
     <br><strong>PostgreSQL</strong><br>Intermediário
-  </div>
-  <div align="center">
+    </td>
+    <td align="center" width="140">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="48"/>
     <br><strong>SQLite</strong><br>Intermediário
-  </div>
-</div>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🛠️ Frameworks & Ferramentas
 
-<div style="display: flex; gap: 20px; align-items: center;">
-  <div align="center">
+<table align="center" border="0.5" style="border-collapse: collapse; border-color: white;" >
+  <tr>
+    <td align="center" width="140" style="border-color: white;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="48"/>
     <br><strong>Django</strong><br>Avançado
-  </div>
-  <div align="center">
+    </td>
+    <td align="center" width="140" style="border-color: white;">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48"/>
     <br><strong>Git</strong><br>Intermediário
-  </div>
-</div>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -188,6 +192,7 @@ Foco em Django, APIs REST e qualidade de código
 ---
 
 🌱 *Sempre aprendendo, testando e refatorando.* 🚀
+
 
 
 
