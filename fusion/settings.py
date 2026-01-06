@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -138,3 +139,35 @@ EMAIL_HOST_PASSWORD = '<your_email_password>'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 """
+JAZZMIN_SETTINGS = {
+    "site_title": "Fusion Admin",
+    "site_header": "Fusion",
+    "site_brand": "Fusion",
+    "welcome_sign": "Bem-vindo ao painel administrativo",
+    "copyright": "Fusion",
+    "icons": {
+        "auth": "fas fa-users-cog",
+        "auth.user": "fas fa-user",
+        "auth.group": "fas fa-users",
+
+        "core": "fas fa-layer-group",
+        "core.contact": "fas fa-envelope",
+    },
+    "show_sidebar": True,
+    "navigation_expanded": True,
+    "hide_apps": [],
+    "hide_models": [],
+    "order_with_respect_to": ["auth", "core", "books", "books.author", "books.book"],
+
+
+
+}
+
+JAZZMIN_UI_TWEAKS = {
+    "theme": "minty",
+    "dark_mode_theme": "darkly",
+    "navbar": "navbar-dark bg-primary",
+    "sidebar": "sidebar-dark-primary",
+    "accent": "accent-primary",
+    "brand_colour": "navbar-primary",
+}
